@@ -7,6 +7,7 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:contentDescription="@string/app_name"
         android:id="@+id/man_child"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,7 +58,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:autofillHints="name"
+            android:text="@string/name" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
