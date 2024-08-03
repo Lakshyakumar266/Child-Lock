@@ -81,7 +81,8 @@
             android:hint="Password"
             android:inputType="textVisiblePassword"
             android:padding="12sp"
-            android:textColor="@color/blackShade" />
+            android:textColor="@color/blackShade"
+            tools:ignore="HardcodedText" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -100,13 +101,11 @@
                 android:id="@+id/forgotPassword"
                 android:layout_width="126dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="0sp"
-                android:layout_weight="1"
                 android:background="#00FFFFFF"
-                android:padding="0sp"
                 android:text="Forgot Password?"
                 android:textColor="@color/purple"
-                tools:layout_margin="0sp" />
+                tools:layout_margin="0sp"
+                tools:ignore="HardcodedText" />
 
         </LinearLayout>
 
