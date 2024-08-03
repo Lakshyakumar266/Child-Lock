@@ -33,6 +33,7 @@
 
     <Button
         android:id="@+id/Go_signUp"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
@@ -46,6 +47,7 @@
         android:layout_height="500dp"
         android:orientation="vertical"
         android:padding="32dp"
+        android:paddingTop="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,13 +55,59 @@
         app:layout_constraintVertical_bias="0.741">
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="8sp"
+            android:layout_marginTop="5sp"
+            android:autofillHints="name"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:textColor="@color/blackShade"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:padding="11sp"/>
+
+        <EditText
+            android:id="@+id/Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
+            android:layout_margin="8sp"
             android:autofillHints="name"
-            android:text="@string/name" />
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textVisiblePassword"
+            android:padding="12sp"
+            android:textColor="@color/blackShade" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/rememberMe"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:text="@string/remember_me"
+                android:textColor="@color/purple" />
+
+            <Button
+                android:id="@+id/forgotPassword"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0sp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:padding="0sp"
+                android:text="Forgot Password?"
+                android:textColor="@color/purple"
+                tools:layout_margin="0sp" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

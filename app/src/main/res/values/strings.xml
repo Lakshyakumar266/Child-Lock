@@ -4,4 +4,8 @@
         Sign Up
     </string>
     <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="set_password">Set Password</string>
+    <string name="remember_me">Remember me</string>
 </resources>
