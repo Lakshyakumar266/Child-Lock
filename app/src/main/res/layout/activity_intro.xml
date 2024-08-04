@@ -39,9 +39,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Welcome\nTo Child Lock"
-        android:textColor="#000000"
-        android:textSize="30sp"
+        android:text="Welcome\nto Child Lock"
+        android:textColor="@color/blackShade"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topview"
@@ -54,23 +54,24 @@
         android:layout_marginStart="4dp"
         android:text="Keeping Little Ones Safe,\nOne Tap at a Time"
         android:textColor="#8b8b8b"
-        android:textSize="22sp"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="@+id/text01"
         app:layout_constraintTop_toBottomOf="@+id/text01"
         tools:ignore="HardcodedText" />
 
-    <TextView
+    <Button
         android:id="@+id/nextPage"
-        android:layout_width="175dp"
+        android:layout_width="195dp"
         android:layout_height="65dp"
+        android:background="@drawable/background_bottom_intro"
         android:gravity="center"
+        android:text="Get Started"
         android:textColor="@color/white"
         android:textSize="25sp"
-        android:text="Get Started"
         android:textStyle="bold"
-        android:background="@drawable/background_bottom_intro"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="HardcodedText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

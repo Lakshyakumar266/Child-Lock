@@ -11,7 +11,7 @@
         android:id="@+id/forground"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-150dp"
+        android:layout_marginTop="-140dp"
         android:contentDescription="@string/app_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="40dp"
         android:text="Hi,\nPlease Login"
         android:textColor="@color/blackShade"
         android:textSize="31sp"
@@ -38,6 +38,7 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
         android:background="#00FFFFFF"
         android:text="@string/sign_up"
         android:textColor="@color/purple"
@@ -56,7 +57,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/forground"
-        app:layout_constraintVertical_bias="0.694">
+        app:layout_constraintVertical_bias="0.674">
 
         <EditText
             android:id="@+id/email"
@@ -116,9 +117,9 @@
             style="@android:style/Widget.Button"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
             android:layout_marginTop="32dp"
             android:background="@drawable/button_background"
-            android:layout_marginHorizontal="10dp"
             android:text="@string/login"
             android:textColor="@color/white"
             android:textSize="25sp"
