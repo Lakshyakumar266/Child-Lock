@@ -38,7 +38,7 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="25dp"
         android:background="#00FFFFFF"
         android:text="@string/sign_up"
         android:textColor="@color/purple"
@@ -82,7 +82,7 @@
             android:background="@drawable/input_background"
             android:ems="10"
             android:hint="Password"
-            android:inputType="textVisiblePassword"
+            android:inputType="textPassword"
             android:padding="12sp"
             android:textColor="@color/blackShade"
             tools:ignore="HardcodedText" />
